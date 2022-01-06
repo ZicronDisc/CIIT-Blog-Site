@@ -1,0 +1,137 @@
+body {
+    font-family: Arial;
+}
+
+/*Logo*/
+.logo {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Nav Bar*/
+.container {
+    width: auto;
+}
+
+header{
+    background-color: #162434;
+    text-align: center;
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*important*/
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: arial;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+    color: #7FC1FA;
+    transition-duration: 250ms;
+    text-decoration: none;
+}
+
+nav a:hover:after{
+    color: #7FC1FA;
+    transition-duration: 250ms;
+    text-decoration: none;
+}
+
+.active {
+    color: #7FC1FA;
+}
+  
+
+/*Parallax*/
+.par1 {
+    padding: 150px;
+    background-image: url(../Billate_BlogSite/images/ciit-building.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 10px;
+}
+
+.subHeading {
+    color: white;
+    font-size: medium;
+}
+
+/*bg*/
+.lightMode {
+    padding: 50px;
+    background-color: white;
+    font-family: Arial;
+}
+.darkMode {
+    padding: 50px;
+    background-color: #162434;
+    color: white;
+    font-family: Arial;
+}
+.greyMode {
+    padding: 100px;
+    background-color: #dbdbdb;
+    color: #162434;
+    text-align: left;
+    font-family: Arial;
+}
+
+/*footer*/
+footer {
+    padding: 60px;
+    background-color: #162434;
+    color: white;
+    font-size: 10px;
+}
+
+/*children*/
+.pad1 {
+    padding: 100px;
+}
+.pad2 {
+    padding: 70px;
+}
+.margin {
+    margin-top: 20px;
+}
+.pad3 {
+    padding: 60px;
+}
+
+/*indention*/
+.pbody{
+    text-indent: 2cm;
+}
+
